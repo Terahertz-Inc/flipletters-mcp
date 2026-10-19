@@ -10,7 +10,7 @@ render MP4s, and send boards to a team library or a Postiz social queue.
 - 📚 **Docs:** [flipletters.com/mcp](https://flipletters.com/mcp) · [flipcode reference](https://flipletters.com/docs)
 - 🌐 **Endpoint:** `https://app.flipletters.com/mcp/v1` (Streamable HTTP; alias `https://app.flipletters.com/api/mcp`)
 - 🔑 **API key:** [FlipLetters Studio](https://app.flipletters.com) → **Account → API keys & agents** (keys start with `flk_`; free to create)
-- 💻 **Local, no key:** `npx -y flipletters-mcp-server` (draft tools over stdio)
+- 💻 **Local, no key:** `npx -y flipletters-mcp-server@0.3.1` (draft tools over stdio)
 - 🗂️ **Registry name:** `com.flipletters/mcp`
 
 > This is a public listing repo (README, `server.json`, LICENSE). The hosted
@@ -67,7 +67,7 @@ claude mcp add --transport http flipletters https://app.flipletters.com/mcp/v1 \
   "mcpServers": {
     "flipletters": {
       "command": "npx",
-      "args": ["-y", "flipletters-mcp-server"],
+      "args": ["-y", "flipletters-mcp-server@0.3.1"],
       "env": { "FLIPLETTERS_API_KEY": "optional: flk_ key for render and team tools" }
     }
   }
