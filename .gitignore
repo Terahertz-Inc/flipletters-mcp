@@ -1,0 +1,4 @@
+# MCP Registry domain keys live in ~/.mcp-registry-keys and must never be committed.
+.mcp-registry-keys/
+**/.mcp-registry-keys/
+*.pem

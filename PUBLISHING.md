@@ -34,7 +34,8 @@ chmod 600 "$DOMAIN.pem"
 ```
 
 Back up `~/.mcp-registry-keys/$DOMAIN.pem` in 1Password. **Never commit
-the .pem or the private hex.**
+`~/.mcp-registry-keys`** (or any copy of it), the `.pem`, or the private
+hex. That directory is gitignored and must stay off this repo.
 
 ## 2. Serve the proof file
 
