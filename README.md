@@ -1,5 +1,9 @@
 # FlipLetters MCP
 
+[![smithery badge](https://smithery.ai/badge/SMITHERY_NAMESPACE/flipletters)](https://smithery.ai/server/SMITHERY_NAMESPACE/flipletters)
+<!-- PLACEHOLDER: replace SMITHERY_NAMESPACE/flipletters with the qualified name Smithery assigns once the listing exists; do not merge before then. -->
+
+
 **The Model Context Protocol server for [FlipLetters](https://flipletters.com).**
 FlipLetters makes split-flap and flip-dot board videos (the look of an old
 train-station departure board) with synthesized mechanical sound. Boards are
