@@ -1,0 +1,25 @@
+{
+  "name": "flipletters",
+  "displayName": "FlipLetters",
+  "description": "Design, validate and render split-flap and flip-dot board videos from text, then share to a team or to social via Postiz.",
+  "version": "0.3.1",
+  "author": {
+    "name": "Terahertz, Inc.",
+    "email": "support@flipletters.com"
+  },
+  "homepage": "https://flipletters.com",
+  "repository": "https://github.com/Terahertz-Inc/flipletters-mcp",
+  "license": "MIT",
+  "keywords": ["mcp", "split-flap", "flip-dot", "video", "flipcode"],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "FLIPLETTERS_API_KEY": {
+        "type": "string",
+        "title": "FlipLetters API key",
+        "description": "flk_ API key from FlipLetters Studio → Account → API keys & agents."
+      }
+    },
+    "required": ["FLIPLETTERS_API_KEY"]
+  }
+}
