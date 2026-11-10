@@ -1,5 +1,10 @@
 # FlipLetters MCP
 
+[![npm](https://img.shields.io/npm/v/flipletters-mcp-server.svg)](https://www.npmjs.com/package/flipletters-mcp-server)
+[![MCP Registry](https://img.shields.io/badge/MCP%20Registry-listed-green)](https://registry.modelcontextprotocol.io/v0.1/servers?search=com.flipletters%2Fmcp)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+
 **The Model Context Protocol server for [FlipLetters](https://flipletters.com).**
 FlipLetters makes split-flap and flip-dot board videos (the look of an old
 train-station departure board) with synthesized mechanical sound. Boards are

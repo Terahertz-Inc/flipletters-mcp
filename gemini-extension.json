@@ -1,0 +1,10 @@
+{
+  "name": "flipletters",
+  "version": "0.3.1",
+  "description": "FlipLetters MCP: draft, validate, render, and share split-flap board videos in flipcode.",
+  "mcpServers": {
+    "flipletters": {
+      "httpUrl": "https://app.flipletters.com/mcp/v1"
+    }
+  }
+}
